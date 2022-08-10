@@ -1,0 +1,17 @@
+@media (max-width: 1024px) {
+    .fa-solid {
+        display: block;
+        color: aqua;
+        background-color: blue;
+        width: 20px;
+        size: 20px;
+
+    }
+    
+    .nav-wraper {
+        display: none;
+    }
+   
+
+    
+}

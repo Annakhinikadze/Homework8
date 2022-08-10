@@ -33,6 +33,11 @@
     font-family: 'Lato', sans-serif;
 }
 
+.fa-solid {
+    display: none;
+    
+}
+
 /* SECTION 1 */
 
 .section-one {
