@@ -9,15 +9,13 @@
     margin-right: 80px; 
 }
 
-.logo-div {
+
+.logo {
+    color: #4B647E;
     font-size: 32px;
     margin-top: 68px;
     font-family: 'Lato', sans-serif;
     color: #4B647E; 
-}
-
-.logo {
-    color: #4B647E;;
 }
 
 .web {
@@ -73,7 +71,7 @@
     margin-bottom: 177px;
 }
 
-/* SECTION 1 left side: blue box */
+/* SECTION 1 left side: Blue Box */
 
 .S1-box {
     display: flex;
@@ -111,10 +109,10 @@
 /* SECTION 2 */
 
 .section-two {
-    width: 1170px;
     margin: 287.4px auto 130px auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 /* SECTION 2 - DESCRIPTIONS */
@@ -154,9 +152,10 @@
 
 /* SECTION TWO BOXES */
 
-.rows {
+.all-box-div {
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
+    flex-wrap: wrap; 
 }
 
 
@@ -168,7 +167,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 88px;   
+    padding-top: 88px; 
+    margin-bottom: 60px;  
 }
 
 .box-image {
@@ -223,7 +223,7 @@
 
 
 /* ROW-1 */
-.row-1 {
+.box {
     margin-bottom: 60px;
 }
 
