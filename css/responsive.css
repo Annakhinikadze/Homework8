@@ -2,11 +2,33 @@
 @media (max-width:1440px) {
 
     .big-picture {
-
-        max-width: 80px;
+        max-width: 60%;
+       
     }
 
 }
+
+@media (max-width: 1221px) {
+    .heading1 {
+        font-size: 50px;
+        width: 400px;
+    }
+
+    .section-one {
+        margin-top: 195px;
+    }
+
+    .big-picture {
+        margin-left: 50px;
+    }
+
+    .S1-left-side {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 
 @media (max-width: 1024px) {
     /* HEADER */
@@ -36,7 +58,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        width: 600px;
+        /* width: 600px; */
     }
  
     .heading1 {
@@ -48,7 +70,8 @@
 
     .big-picture {
         max-width: 80%;
-        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 100px;
     }
 
@@ -64,11 +87,11 @@
     .S2-descriptions {
         margin-bottom: 100px;
         align-items: center;
-        width: 600px;
+        /* width: 600px; */
     }
 
     .S2-paragraph-div {
-        width: 600px;
+        /* width: 600px; */
     }
 
     /* SECTION 2 BOXES */
@@ -86,6 +109,74 @@
         width: 48%;
         
     }
-
-
 }
+
+@media (max-width: 770px) {
+    .section-one {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        width: 100%;
+    }
+
+    .header-wraper {
+        width: 100%;
+        justify-content: space-around;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    .S1-left-side{
+
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .heading1 {
+        font-size: 35px;
+        width: 300px;
+    }
+    .S1-description {
+        font-size: 15px;
+        width: 300px;
+    }
+
+    .big-picture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* SECOND SECTION */
+        .heading3 {
+            font-size: 18px;
+        }
+        .heading2 {
+            font-size: 28px;
+            
+        }
+
+        .S2-paragraph-div {
+            width: 300px;
+        }
+        
+        .S2-paragraph {
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .box:nth-child(1),
+        .box:nth-child(2),
+        .box:nth-child(3),
+        .box:nth-child(4),
+        .box:nth-child(5),
+        .box:nth-child(6) {
+            width: 80%;
+
+}  
